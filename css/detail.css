@@ -1,0 +1,102 @@
+.detail {
+  padding: 100px 0 50px;
+}
+.detail-top {
+  text-align: center;
+  font-size: 25px;
+  font-family: var(--main-text-font);
+  color: #378000;
+}
+.detail-text {
+  display: flex;
+  justify-content: space-between;
+}
+.detail-text-left-content {
+  width: 50%;
+}
+.detail-text-right-content {
+  width: 50%;
+}
+.detail-text-right {
+  width: 100%;
+}
+.detail-text-right table {
+  width: 100%;
+  text-align: center;
+}
+
+.detail-text-right table th {
+  padding-bottom: 30px;
+  font-family: var(--main-text-font);
+  font-size: 12px;
+  text-transform: uppercase;
+  color: #333;
+  border-collapse: collapse;
+  border-bottom: 2px solid #dddddd;
+}
+.detail-text-right table p {
+  font-size: 12px;
+  font-family: var(--main-text-font);
+  color: #333;
+}
+.detail-text-rightt table input {
+  width: 30px;
+}
+.detail-text-right table span {
+  display: block;
+  width: 20px;
+  height: 20px;
+  border: 1px solid #dddddd;
+  cursor: pointer;
+}
+.detail-text-right table td {
+  padding: 20px 0;
+  border-bottom: 2px solid #dddddd;
+}
+
+.detail-text-right td:first-child img {
+  width: 50px;
+}
+.detail-text-right td:nth-child(2) {
+  max-width: 130px;
+}
+.detail-text-right td:nth-child(3) img {
+  width: 30px;
+}
+.detail-text-right table td:nth-child(5) span {
+  font-size: 11px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.detail-content-right-bottom {
+  padding-left: 12px;
+  margin-top: 30px;
+  width: 40%;
+  margin-bottom: 30px;
+}
+.detail-content-right-bottom table {
+  width: 100%;
+}
+.detail-content-right-bottom table th {
+  padding-bottom: 30px;
+  font-family: var(--main-text-font);
+  font-size: 12px;
+  text-transform: uppercase;
+  color: #333;
+  border-collapse: collapse;
+  border-bottom: 2px solid #dddddd;
+}
+.detail-content-right-bottom table td {
+  font-size: 12px;
+  font-family: var(--main-text-font);
+  color: #333;
+  padding: 6px 0;
+}
+
+.detail-content-right-bottom tr:nth-child(4) td {
+  border-bottom: 2px solid #dddddd;
+}
+.detail-content-right-bottom tr td:last-child {
+  text-align: right;
+}
